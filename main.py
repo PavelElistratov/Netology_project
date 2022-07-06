@@ -110,3 +110,6 @@ print(f'Утка {Кряква.name} весит {Кряква.weight} кг')
 Кряква.eggs(2)
 
 print(f'Коза {Копыта.name} говорит {Копыта.voice}, а утка говорит {Duck.voice} ')
+
+
+# comment
