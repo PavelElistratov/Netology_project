@@ -85,7 +85,7 @@ print(Рога.weight)
 Копыта = Goat('Копыта')
 print(Копыта.name)
 print(Копыта.weight)
-
+Копыта.food()
 
 class Duck:
     voice = 'Кря-Кря'
@@ -113,4 +113,4 @@ print(f'Утка {Кряква.name} весит {Кряква.weight} кг')
 print(f'Коза {Копыта.name} говорит {Копыта.voice}, а утка говорит {Duck.voice} ')
 
 
-# comment to commit
+# comment to commit +++
