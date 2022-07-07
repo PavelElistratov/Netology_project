@@ -35,7 +35,7 @@ print(Белый.weight)
 
 class Cow:
     def __init__(self):  # действия при создании экземпляра класса
-        self.name = 'Unnemed'
+        self.name = 'Unnamed'
         self.weight = 0
 
 
@@ -47,7 +47,7 @@ print(f'Общий надой - {Манька.total} литров')
 
 class Sheep:
     def __init__(self):
-        self.name = 'Unnemed'
+        self.name = 'Unnamed'
         self.weight = 0
         self.total = 0
 
@@ -66,7 +66,7 @@ print(Барашек.total)
 
 
 class Goat:  # Коза
-    def __init__(self, name='Unnemed', weight=0):   # Запрос переменных при создании объекта, значения по-умолчанию
+    def __init__(self, name='Unnamed', weight=0):   # Запрос переменных при создании объекта, значения по-умолчанию
         self.name = name
         self.weight = weight
         self.total = 0
@@ -91,7 +91,7 @@ print(Копыта.weight)
 class Duck:
     voice = 'Кря-Кря'
 
-    def __init__(self, name='Unnemed', weight=0):
+    def __init__(self, name='Unnamed', weight=0):
         self.name = name
         self.weight = weight
         self.total = 0
