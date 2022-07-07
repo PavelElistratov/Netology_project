@@ -19,6 +19,7 @@
 class Goose:
     pass
 
+
 Серый = Goose()
 Серый.name = 'Серый'
 Серый.weight = 10
@@ -88,11 +89,11 @@ print(Копыта.weight)
 
 class Duck:
     voice = 'Кря-Кря'
+
     def __init__(self, name='Unnemed', weight=0):
         self.name = name
         self.weight = weight
         self.total = 0
-
 
     def food(self, food_weight=1):   # Функция кормления заданным кол-вом корма. По-умолчанию =1
         self.weight += food_weight
@@ -112,4 +113,4 @@ print(f'Утка {Кряква.name} весит {Кряква.weight} кг')
 print(f'Коза {Копыта.name} говорит {Копыта.voice}, а утка говорит {Duck.voice} ')
 
 
-# comment
+# comment to commit
